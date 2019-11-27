@@ -61,9 +61,7 @@ public class OopApplication  implements CommandLineRunner{
 	
 	@Autowired
 	private InitDB initDbService;
-//
-//	@Autowired
-//	private ScannerService scn;
+
 	
 	private int selection;
 	
@@ -77,44 +75,46 @@ public class OopApplication  implements CommandLineRunner{
 		
 
 		
-     	PersonGenerator.getData("F:\\WP_SpringBoot\\oop\\src\\main\\resources\\rawData\\entity\\Person\\firstname_list",
-			"F:\\WP_SpringBoot\\oop\\src\\main\\resources\\rawData\\entity\\Person\\midname_list",
-			"F:\\WP_SpringBoot\\oop\\src\\main\\resources\\rawData\\entity\\Person\\lastname_list",
-			"F:\\WP_SpringBoot\\oop\\src\\main\\resources\\rawData\\entity\\Person\\position",
-			"F:\\WP_SpringBoot\\oop\\src\\main\\resources\\rawData\\entity\\Person\\nationality");
-     	
-     	AggrementGenerator.getData("F:\\WP_SpringBoot\\oop\\src\\main\\resources\\dataok\\Aggrement\\label",
-     			"F:\\WP_SpringBoot\\oop\\src\\main\\resources\\dataok\\Aggrement\\field", 
-     			"F:\\WP_SpringBoot\\oop\\src\\main\\resources\\dataok\\Aggrement\\des");
-     	
-     	CountryGenerator.getData("F:\\WP_SpringBoot\\oop\\src\\main\\resources\\dataok\\Country\\label",
-     			"F:\\WP_SpringBoot\\oop\\src\\main\\resources\\dataok\\Country\\des_element1_list", 
-     			"F:\\WP_SpringBoot\\oop\\src\\main\\resources\\dataok\\Country\\des_element2_list",
-     			"F:\\WP_SpringBoot\\oop\\src\\main\\resources\\dataok\\Country\\des_element3_list");
-     	
-     	EventGenerator.getData("F:\\WP_SpringBoot\\oop\\src\\main\\resources\\dataok\\Event\\label", 
-     			"F:\\WP_SpringBoot\\oop\\src\\main\\resources\\dataok\\Event\\field", 
-     			"F:\\WP_SpringBoot\\oop\\src\\main\\resources\\dataok\\Event\\decription");
-     	
-     	LocationGenerator.getData("F:\\WP_SpringBoot\\oop\\src\\main\\resources\\dataok\\Location\\name", 
-     			"F:\\WP_SpringBoot\\oop\\src\\main\\resources\\dataok\\Location\\country_list");
-     	
-     	OrganizationGenerator.getData("F:\\WP_SpringBoot\\oop\\src\\main\\resources\\dataok\\Organization\\organization_name_list", 
-     			"F:\\WP_SpringBoot\\oop\\src\\main\\resources\\dataok\\Organization\\headquarters_list", 
-     			"F:\\WP_SpringBoot\\oop\\src\\main\\resources\\dataok\\Organization\\des_element1_list", 
-     			"F:\\WP_SpringBoot\\oop\\src\\main\\resources\\dataok\\Organization\\des_element2_list");
-     	
-     	TimeGenerator.getData("F:\\WP_SpringBoot\\oop\\src\\main\\resources\\dataok\\Time\\special_day_list");
-     	
-     	System.out.println("read file done");
-     	
+//     	PersonGenerator.getData("F:\\WP_SpringBoot\\oop\\src\\main\\resources\\rawData\\entity\\Person\\firstname_list",
+//			"F:\\WP_SpringBoot\\oop\\src\\main\\resources\\rawData\\entity\\Person\\midname_list",
+//			"F:\\WP_SpringBoot\\oop\\src\\main\\resources\\rawData\\entity\\Person\\lastname_list",
+//			"F:\\WP_SpringBoot\\oop\\src\\main\\resources\\rawData\\entity\\Person\\position",
+//			"F:\\WP_SpringBoot\\oop\\src\\main\\resources\\rawData\\entity\\Person\\nationality");
+//     	
+//     	AggrementGenerator.getData("F:\\WP_SpringBoot\\oop\\src\\main\\resources\\dataok\\Aggrement\\label",
+//     			"F:\\WP_SpringBoot\\oop\\src\\main\\resources\\dataok\\Aggrement\\field", 
+//     			"F:\\WP_SpringBoot\\oop\\src\\main\\resources\\dataok\\Aggrement\\des");
+//     	
+//     	CountryGenerator.getData("F:\\WP_SpringBoot\\oop\\src\\main\\resources\\dataok\\Country\\label",
+//     			"F:\\WP_SpringBoot\\oop\\src\\main\\resources\\dataok\\Country\\des_element1_list", 
+//     			"F:\\WP_SpringBoot\\oop\\src\\main\\resources\\dataok\\Country\\des_element2_list",
+//     			"F:\\WP_SpringBoot\\oop\\src\\main\\resources\\dataok\\Country\\des_element3_list");
+//     	
+//     	EventGenerator.getData("F:\\WP_SpringBoot\\oop\\src\\main\\resources\\dataok\\Event\\label", 
+//     			"F:\\WP_SpringBoot\\oop\\src\\main\\resources\\dataok\\Event\\field", 
+//     			"F:\\WP_SpringBoot\\oop\\src\\main\\resources\\dataok\\Event\\decription");
+//     	
+//     	LocationGenerator.getData("F:\\WP_SpringBoot\\oop\\src\\main\\resources\\dataok\\Location\\name", 
+//     			"F:\\WP_SpringBoot\\oop\\src\\main\\resources\\dataok\\Location\\country_list");
+//     	
+//     	OrganizationGenerator.getData("F:\\WP_SpringBoot\\oop\\src\\main\\resources\\dataok\\Organization\\organization_name_list", 
+//     			"F:\\WP_SpringBoot\\oop\\src\\main\\resources\\dataok\\Organization\\headquarters_list", 
+//     			"F:\\WP_SpringBoot\\oop\\src\\main\\resources\\dataok\\Organization\\des_element1_list", 
+//     			"F:\\WP_SpringBoot\\oop\\src\\main\\resources\\dataok\\Organization\\des_element2_list");
+//     	
+//     	TimeGenerator.getData("F:\\WP_SpringBoot\\oop\\src\\main\\resources\\dataok\\Time\\special_day_list");
+//     	
+//     	System.out.println("read file done");
+//
 //     	selection=scn.getInputNum(1000);
      	
 //     	initDbService.addData();
      	
      	
      	
-     
+     	
+     	
+     System.out.println(lR.count());
     
      	
      	

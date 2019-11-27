@@ -115,19 +115,6 @@ public class PersonGenerator {
 			e.printStackTrace();
 		}
 	}
-	/**
-	 * 
-	 * @return trả về id phù hợp với thực thể Person được tạo mới
-	 */
-//	public static int randomId() {
-//		Integer index = getIndex();
-//		incIndex();
-//		return index;
-//	}
-	/**
-	 * 
-	 * @return chức vụ
-	 */
 	
 	
 	public static String randomPosition() {
@@ -172,19 +159,13 @@ public class PersonGenerator {
 	public static Person generatePerson() {
 		Person person = new Person();
 		person.setLabel(randomName());
-//		person.setId(randomId());
 		person.setPosition(randomPosition());
 		person.setNationality(randomNationality());
 		person.setDescription( person.getPosition()+ person.getLabel()+ " phúc hậu,hiền hòa");
-//		person.setSource(SourceGenerator.generateSource());
+
 		return person;
 	}
-
-//	public static Integer getIndex() {
-//		return index;
-//	}
-//	
-//	private static void incIndex() {
-//		index = index + 1;
-//	}
 }
+
+
+
